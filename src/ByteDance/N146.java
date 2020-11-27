@@ -20,7 +20,7 @@ public class N146 {
     HashMap<Integer,Node> map;
     Node head;
     Node tail;
-    public LRUCache(int capacity) {
+    public void LRUCache(int capacity) {
         map = new HashMap<>();
         head=new Node(-1,-1);
         tail =new Node(-1,-1);

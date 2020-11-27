@@ -9,7 +9,7 @@ public class ListNode {
       ListNode(int val) { this.val = val; }
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
-    public static void sortStack(Stack<Integer> stack) {
+   /** public void sortStack(Stack<Integer> stack) {
         Stack<Integer> help = new Stack<Integer>();
         while(!stack.isEmpty()) {
             int temp = stack.pop();
@@ -21,4 +21,4 @@ public class ListNode {
 
         while(!help.isEmpty()) {     //最后将反序的help压回stack，顺序就对了
             stack.push(help.pop());
-        }
+        }**/

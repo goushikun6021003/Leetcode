@@ -18,7 +18,7 @@ public class N146 {
     int CurrentC=0;
     HashMap<Integer,Node> map;
     Node head,tail;
-    public LRUCache(int capacity) {
+    public void LRUCache(int capacity) {
         map=new HashMap<>();
         MaxCapacity=capacity;
         head=new Node(-1,-1);

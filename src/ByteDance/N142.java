@@ -9,7 +9,7 @@ public class N142 {
             fast=fast.next.next;
             if(slow==fast){
                 fast=head;
-                if(fast!=slow){
+                while(fast!=slow){
                     slow=slow.next;
                     fast=fast.next;
                 }
