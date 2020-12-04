@@ -2,10 +2,7 @@ package 队列;
 
 import javafx.util.Pair;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class N102 {
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -15,6 +12,7 @@ public class N102 {
             return result;
         }
         Queue<Pair<TreeNode,Integer>> queue = new LinkedList<Pair<TreeNode,Integer>>();
+
         queue.add(new Pair<>(root,0));
         while(!queue.isEmpty()){
             TreeNode node = queue.peek().getKey();

@@ -8,6 +8,7 @@ public class N20 {
         char[] chars=s.toCharArray();
 
         Stack<Character> st= new Stack<>();
+
         for(char c:chars) {
             if(c=='(' ||c=='{' ||c=='[' ) {
                 st.push(c);

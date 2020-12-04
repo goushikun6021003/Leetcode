@@ -1,7 +1,4 @@
-package ByteDance;
-
-import java.util.HashMap;
-import java.util.Map;
+package BinaryTree.ConstructBinaryTree;
 
 public class N105 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
