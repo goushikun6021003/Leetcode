@@ -1,4 +1,6 @@
-package LInked;
+package LInked.RemoveElements;
+
+
 
 public class N19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {

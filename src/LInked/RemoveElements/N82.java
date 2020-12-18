@@ -1,4 +1,4 @@
-package LInked.移除元素;
+package LInked.RemoveElements;
 
 public class N82 {
     public ListNode deleteDuplicates(ListNode head) {

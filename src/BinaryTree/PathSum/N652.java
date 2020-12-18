@@ -1,5 +1,11 @@
-package BinaryTree;
-import java.util.*;
+package BinaryTree.PathSum;
+
+
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+
 public class N652 {
     HashMap<String,Integer> map = new HashMap<>();
     List<TreeNode> res = new LinkedList<>();

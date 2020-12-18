@@ -8,7 +8,7 @@ public class N80 {
         for(int fast=1;fast<nums.length;fast++){
             if(nums[fast]==nums[fast-1]&&count<=2){ // 更改count小于几则最多出现几次
                 count++;
-                if(count<=2&&fast<nums.length){
+                if(count<=2){
                     slow++;
                     nums[slow]=nums[fast];
                 }

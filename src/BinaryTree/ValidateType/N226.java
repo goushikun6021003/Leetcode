@@ -1,16 +1,15 @@
-package BinaryTree;
+package BinaryTree.ValidateType;
 
 public class N226 {
     public TreeNode invertTree(TreeNode root) {
-        if( root == null){
+        if(root==null){
             return null;
         }
-        invertTree(root.left);
-        invertTree(root.right);
-        TreeNode temp = new TreeNode();
-        temp=root.left;
+        TreeNode temp = root.left;
         root.left=root.right;
         root.right=temp;
+        invertTree(root.left);
+        invertTree(root.right);
         return root;
     }
 }

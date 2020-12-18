@@ -1,4 +1,6 @@
-package BinaryTree;
+package BinaryTree.ValidateType;
+
+
 
 public class N114 {
     public void flatten(TreeNode root) {
