@@ -16,6 +16,7 @@ public class N75 {
                 nums[two]=temp;
             }else{
                 assert (nums[i]==0);
+                // 用temp中间值交换，不要直接改0和1！
                 zero++;
                 temp=nums[i];
                 nums[i]=nums[zero];

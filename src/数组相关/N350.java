@@ -3,7 +3,7 @@ package 数组相关;
 import java.util.*;
 import java.util.HashMap;
 
-public class N300 {
+public class N350 {
     public int[] intersect(int[] nums1, int[] nums2) {
         /**HashMap<Integer,Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
